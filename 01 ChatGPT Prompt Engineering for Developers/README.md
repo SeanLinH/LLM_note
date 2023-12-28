@@ -1,9 +1,5 @@
 # ChatGPT Prompt Engineering for Developers
 
-[TOC]
-
----
-
 ## 課程簡介
 
 **課程連結**: https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
