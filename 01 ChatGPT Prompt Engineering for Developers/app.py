@@ -1,14 +1,17 @@
 import os 
 # from langchain.llms import OpenAI
+from dotenv import load_dotenv
 import streamlit as st
 import openai
 from openai import OpenAI
 # from langchain.llms.utils. import PyPDFLoader
 
-
+load_dotenv()
 
 # os.environ['OPENAI_API_KEY'] = 'KPI-KEY'
 # openai.api_key = os.getenv('API_KEY')
+
+
 client = OpenAI(api_key=os.getenv('API_KEY'))
 prompt = st.text_input('士桓AI哥在此')
 
